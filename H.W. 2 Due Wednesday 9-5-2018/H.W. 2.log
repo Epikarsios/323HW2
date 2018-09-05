@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  4 SEP 2018 22:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  5 SEP 2018 12:26
 entering extended mode
 **"./H.W. 2.tex"
 ("H.W. 2.tex"
@@ -1893,9 +1893,15 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 y"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-)
-("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\easy\easytable.sty
-"
+) ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+\symboldotherletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+) ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\easy\easytable.s
+ty"
 Document Style `easytable' v1.0 <2001/06/13>.
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\easy\easy.sty"
 Document Style `easy' v1.1 <2001/05/31>.
@@ -2023,7 +2029,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 16.
+(scrartcl)              package `fancyhdr' on input line 19.
 
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
@@ -2051,52 +2057,52 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ("H.W. 2.aux")
 \openout1 = `"H.W. 2.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 49.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 52.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 52.
 
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd
 "
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 49.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 52.
 
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd
 "
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 49.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 52.
 
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd
 "
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
  ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 49.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 52.
  ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\t1futs.fd
 "
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -2179,12 +2185,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 52.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 55.
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 52
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 55
 .
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.f
@@ -2192,162 +2198,117 @@ d"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 52.
+(Font)              scaled to size 13.24796pt on input line 55.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 52.
+(Font)              scaled to size 9.19998pt on input line 55.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 52.
+(Font)              scaled to size 7.35999pt on input line 55.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 52.
+(Font)              scaled to size 13.24796pt on input line 55.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 52.
+(Font)              scaled to size 9.19998pt on input line 55.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 52.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+(Font)              scaled to size 7.35999pt on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
 
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 ("C:\Users\admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 60.
+(Font)              scaled to size 10.07397pt on input line 61.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 60.
+(Font)              scaled to size 7.63599pt on input line 61.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 60.
+(Font)              scaled to size 5.51999pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 60.
+(Font)              scaled to size 10.07397pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 60.
+(Font)              scaled to size 7.63599pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 60.
+(Font)              scaled to size 5.51999pt on input line 61.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 83.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--130
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
@@ -2355,15 +2316,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--130
 
 
 {C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--145
+
+ []
+
 [3] ("H.W. 2.aux") ) 
 Here is how much of TeX's memory you used:
- 25193 strings out of 493303
- 496111 string characters out of 3129785
- 696702 words of memory out of 3000000
- 28361 multiletter control sequences out of 15000+200000
- 607492 words of font info for 103 fonts, out of 3000000 for 9000
+ 25284 strings out of 493303
+ 497288 string characters out of 3129785
+ 698102 words of memory out of 3000000
+ 28446 multiletter control sequences out of 15000+200000
+ 639932 words of font info for 120 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,60p,10451b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,60p,10451b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
 /dvips/base/8r.enc}<C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/fourier/fourier-ml.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2
@@ -2374,7 +2379,7 @@ C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8
 a.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopi
 a/putr8a.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putri8a.pfb>
-Output written on "H.W. 2.pdf" (3 pages, 65453 bytes).
+Output written on "H.W. 2.pdf" (3 pages, 68599 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

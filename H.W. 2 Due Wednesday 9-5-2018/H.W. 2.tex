@@ -11,6 +11,9 @@
 \usepackage{amsmath}
 \usepackage{sectsty} % Allows customizing section commands
 \allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{bm}
+\newcommand{\uvec}[1]{\boldsymbol{\hat{\textbf{#1}}}}
 \usepackage[thinlines]{easytable}
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
@@ -55,6 +58,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{SPINS Lab 1}
+This lab entailed preparing particles in a particular state, $\ket{\pm}_n$, and passing them through a second analyzer in the orthogonal directions noting the output on the table.
 \renewcommand{\arraystretch}{2}
 \begin{center}
   \begin{tabular}{ | c | c | c | c | c | c | c | }
@@ -73,6 +77,7 @@
     \hline
   \end{tabular}
 \end{center}
+We can see the symmetry in the results of the table, if the in's and out's were reversed the results would be the same.
 %------------------------------------------------
 \section{Ch.1 Definitions}
 \textbf{Orbital Angular Momentum L} $\bullet$ The electron, from a classical viewpoint has angular momentum around a radius. $L = mvr$ This momentum of a charged particle creates current loops which induce a magnetic moment.\\
@@ -81,7 +86,7 @@
 \\ 
  \textbf{Gyroscopic Ratio} $\bullet$ A dimensionless scalar constant that relates spin of a particle with the magnetic moment $\mu$ as in $\vec{\mu} = g\frac{q}{2m}\vec{S}$.\\
 \\
-\textbf{Quantization} $\bullet$ The act of organizing information in to discrete sets.\\
+\textbf{Quantization} $\bullet$ The act of organizing information into discrete sets.\\
 \\
 \textbf{Spin $\frac{1}{2}$ system} $\bullet$ The Stern-Gerlach observations showed that spins of the particles were orientated in either a up or down configuration, $\vec{S_z}= \pm \frac{\hbar}{2} $\\
 \\ 
@@ -91,7 +96,7 @@
  \\
  \textbf{Ket} $\bullet$ Symbolic representation of the quantum state.\\
  \\
- \textbf{Bra} $\bullet$ \\ Symbolic representation of the complex conjugate of quantum state.
+ \textbf{Bra} $\bullet$ Symbolic representation of the complex conjugate of quantum state.\\
  \\
  \textbf{State Preparation Device} $\bullet$ When a device such as Stern-Gerlach device separates the up and down spins of particles they are said to be prepared in that state. \\
  \\
@@ -99,31 +104,41 @@
  \\
  \textbf{Incompatible Observables} $\bullet$  Observables that cannot be know simultaneously as in knowing orthogonal spin components of a particle.\\
  \\
- \textbf{Quantum State Vectors} $\bullet$ The mathematicle representation of the quantum state of a system containing both the real and complex information. \\
+ \textbf{Quantum State Vectors} $\bullet$ The mathematical representation of the quantum state of a system containing both the real and complex information. \\
  \\
 \textbf{Hilbert Space} $\bullet$ Vector space defined for a system that limits space to the necessary dimensions.\\
  \\
- \textbf{Dot Product} $\bullet$  \\
+ \textbf{Dot Product, inner product, scalar product} $\bullet$ The magnitude of two vectors multiplied by the cosine of the angle between them. It is the magnitude of the projection of one vector on to another. \\
  \\
  \textbf{$S_z$ basis} $\bullet$ The possible contents of the set.\\
  \\
- \textbf{Orthonormality} $\bullet$ \\ The combination of normalizing and making orthogonal a vector or state.
- \\
+ \textbf{Orthonormality} $\bullet$ The combination of normalizing and making orthogonal a vector or state.\\
+ \textbf{Basis Vectors :}\\
+ \textbf{Normalized} $\bullet$ The spatial vector is normalized if it is a unit vector with magnitude of one.
+ \begin{equation*}
+  \hat{i}\cdot\hat{i}=\hat{j}\cdot\hat{j}=\hat{k}\cdot\hat{k} = 1
+ \end{equation*}
+ \textbf{Orthogonal} $\bullet$ The spatial vectors are orthogonal if their directions are perpendicular to each other.
+ \begin{equation*}
+ \hat{i}\cdot\hat{j}=\hat{i}\cdot\hat{k}=\hat{j}\cdot\hat{k} = 0
+ \end{equation*}
+ \textbf{Completeness} $\bullet$ The spatial vectors are complete if any vector to some point in the space can be written as linear superposition of the unit vectors, scaling them accordingly and summing directions.
+ \begin{equation*}
+ \vec{A} = a_x\hat{i} = a_y\hat{j} = a_z\hat{k} 
+ \end{equation*}
 \textbf{Normalization Constant} $\bullet$  The complex constant C\\
  \\
- \textbf{Probability} $\bullet$ \\
+ \textbf{Probability} $\bullet$ Mathematical possibility of an event occurring, the chance that the quantum state of the ket is measured to be in the corresponding basis state.\\
  \\
- \textbf{Probability Amplitude} $\bullet$ \\
+ \textbf{Probability Amplitude} $\bullet$ The inner product of input and output states. \\
  \\
- \textbf{Superposition State} $\bullet$ The combination of states containing both up and down spins\\
+ \textbf{Superposition State, Coherent Superposition} $\bullet$ The combination of general spin 1/2 vector containing both up and down kets\\
  \\
- \textbf{Mixed State} $\bullet$  \\
+ \textbf{Mixed State} $\bullet$ A state created from a mixture of up and down spin atoms \\
+\\
+ \textbf{Column-Row Vectors} $\bullet$ Matrices for indexing information, framework for linear algebra or computational calculations. \\
  \\
- \textbf{Coherent Superposition} $\bullet$ \\
- \\
- \textbf{Column-Row Vectors} $\bullet$ \\
- \\
- \textbf{Representation} $\bullet$ Collection of coefficents that multipy the basis set\\
+ \textbf{Representation} $\bullet$ Collection of coefficients that multiply the basis set\\
  \\
  \textbf{Kronecker Delta} $\bullet$ Binary logical operator, True if equal, false if not.  \\
  \\
