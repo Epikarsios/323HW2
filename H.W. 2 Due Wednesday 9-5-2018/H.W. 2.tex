@@ -11,7 +11,7 @@
 \usepackage{amsmath}
 \usepackage{sectsty} % Allows customizing section commands
 \allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
-
+\usepackage[thinlines]{easytable}
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
@@ -55,27 +55,81 @@
 %----------------------------------------------------------------------------------------
 
 \section{SPINS Lab 1}
+\renewcommand{\arraystretch}{2}
 \begin{center}
   \begin{tabular}{ | c | c | c | c | c | c | c | }
     \hline
     $|\bra{out}\ket{in}|^2$ & $\ket{+}$& $\ket{-}$ & $\ket{+}_x$ & $\ket{-}_x$ & $\ket{+}_y$ & $\ket{-}_y$ \\ \hline
-  $  \bra{+}$ & 1 &   &  &  &  &    \\ \hline
-    $\bra{-}$ &  &  &  &  &  &   \\
+  $  \bra{+}$ & 1 &0   & $\tfrac{1}{2}$ & $\tfrac{1}{2}$  & $\tfrac{1}{2}$ & $\tfrac{1}{2}$   \\ \hline
+    $\bra{-}$ & 0 & 1 & $\tfrac{1}{2}$ &$\tfrac{1}{2}$  & $\tfrac{1}{2}$ &  $\tfrac{1}{2}$ \\
     \hline
-       $_x\bra{+}$ &  &  &  &  &  &   \\
+       $_x\bra{+}$ & $\tfrac{1}{2}$ & $\tfrac{1}{2}$ & 1 & 0 & $\tfrac{1}{2}$ & $\tfrac{1}{2}$  \\
     \hline
-       $_x\bra{-}$ &  &  &  &  &  &   \\
+       $_x\bra{-}$ & $\tfrac{1}{2}$ & $\tfrac{1}{2}$ & 0 & 1 &$\tfrac{1}{2}$  & $\tfrac{1}{2}$  \\
     \hline
-       $_y\bra{+}$ &  &  &  &  &  &   \\
+       $_y\bra{+}$ & $\tfrac{1}{2}$ &$\tfrac{1}{2}$  &$\tfrac{1}{2}$  &$\tfrac{1}{2}$  & 1 &  0 \\
     \hline
-       $_y\bra{-}$ &  &  &  &  &  &   \\
+       $_y\bra{-}$ &$\tfrac{1}{2}$  &$\tfrac{1}{2}$  & $\tfrac{1}{2}$ & $\tfrac{1}{2}$ & 0 & 1  \\
     \hline
   \end{tabular}
 \end{center}
 %------------------------------------------------
 \section{Ch.1 Definitions}
-
-
+\textbf{Orbital Angular Momentum L} $\bullet$ The electron, from a classical viewpoint has angular momentum around a radius. $L = mvr$ This momentum of a charged particle creates current loops which induce a magnetic moment.\\
+\\
+ \textbf{Intrinsic Angular Momentum, S, Spin} $\bullet$ Similar to a satellite in orbit rotating as it revolves an electron classically has a rotation called spin. The spin also produces current loops.\\
+\\ 
+ \textbf{Gyroscopic Ratio} $\bullet$ A dimensionless scalar constant that relates spin of a particle with the magnetic moment $\mu$ as in $\vec{\mu} = g\frac{q}{2m}\vec{S}$.\\
+\\
+\textbf{Quantization} $\bullet$ The act of organizing information in to discrete sets.\\
+\\
+\textbf{Spin $\frac{1}{2}$ system} $\bullet$ The Stern-Gerlach observations showed that spins of the particles were orientated in either a up or down configuration, $\vec{S_z}= \pm \frac{\hbar}{2} $\\
+\\ 
+ \textbf{Observable} $\bullet$ The physical quantity that is measured.\\
+ \\
+ \textbf{Analyzer} $\bullet$ A device which can distinguish the spin configuration of particles.\\
+ \\
+ \textbf{Ket} $\bullet$ Symbolic representation of the quantum state.\\
+ \\
+ \textbf{Bra} $\bullet$ \\ Symbolic representation of the complex conjugate of quantum state.
+ \\
+ \textbf{State Preparation Device} $\bullet$ When a device such as Stern-Gerlach device separates the up and down spins of particles they are said to be prepared in that state. \\
+ \\
+ \textbf{Local Hidden Variable Theory} $\bullet$ The theory that there could be another yet undiscovered fact or trait about the system that would account for the observations.\\
+ \\
+ \textbf{Incompatible Observables} $\bullet$  Observables that cannot be know simultaneously as in knowing orthogonal spin components of a particle.\\
+ \\
+ \textbf{Quantum State Vectors} $\bullet$ The mathematicle representation of the quantum state of a system containing both the real and complex information. \\
+ \\
+\textbf{Hilbert Space} $\bullet$ Vector space defined for a system that limits space to the necessary dimensions.\\
+ \\
+ \textbf{Dot Product} $\bullet$  \\
+ \\
+ \textbf{$S_z$ basis} $\bullet$ The possible contents of the set.\\
+ \\
+ \textbf{Orthonormality} $\bullet$ \\ The combination of normalizing and making orthogonal a vector or state.
+ \\
+\textbf{Normalization Constant} $\bullet$  The complex constant C\\
+ \\
+ \textbf{Probability} $\bullet$ \\
+ \\
+ \textbf{Probability Amplitude} $\bullet$ \\
+ \\
+ \textbf{Superposition State} $\bullet$ The combination of states containing both up and down spins\\
+ \\
+ \textbf{Mixed State} $\bullet$  \\
+ \\
+ \textbf{Coherent Superposition} $\bullet$ \\
+ \\
+ \textbf{Column-Row Vectors} $\bullet$ \\
+ \\
+ \textbf{Representation} $\bullet$ Collection of coefficents that multipy the basis set\\
+ \\
+ \textbf{Kronecker Delta} $\bullet$ Binary logical operator, True if equal, false if not.  \\
+ \\
+ 
+ 
+ 
 %----------------------------------------------------------------------------------------
 
 \end{document}
